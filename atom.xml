@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Idées random</title>
+    <link>http://tychota.github.io</link>
+    <updated>2016-02-25T17:52:09Z</updated>
+    <author>
+        <name>Tycho Tatitscheff</name>
+        <email>tycho.tatitscheff@gmail.com</email>
+        <uri>http://tychota.github.io</uri>
+    </author>
+    <link rel="alternate" href="http://tychota.github.io"/>
+    <subtitle>Le blog de Tycho Tatitscheff</subtitle>
+    <rights>CC-BY</rights>
+    <generator>Feed for Node.js</generator>
+    <contributor>
+        <name>Tycho Tatitscheff</name>
+        <email>tycho.tatitscheff</email>
+    </contributor>
+    <entry>
+        <title type="html"><![CDATA[Je lance mon blog - les explications]]></title>
+        <id>http://tychota.github.io/lancement-blog/</id>
+        <link href="http://tychota.github.io/lancement-blog/">
+        </link>
+        <updated>2016-02-25T14:51:03Z</updated>
+        <content type="html"><![CDATA[<p>Voilà, c’est bon, je me suis décidé <strong>à lancer mon blog sur github</strong>.</p>
+<p>La <strong>lecture de <a href="https://medium.com/@vjeux/start-a-technical-blog-2f5ed7c6f34f#.s4to4m49l">cet article</a></strong> de @vjeux m’a
+convaincu que c’était une bonne idée pour plusieurs raisons :</p>
+<ul>
+<li><strong>améliorer mes compétences</strong> (programation et capacité à vulgariser/expliquer clairement)</li>
+<li><strong>me faire connaitre</strong> et rencontrer de nouvelles personnes</li>
+<li><strong>présenter mes expériences et difficultés</strong> pour permettre à d’autres de ne pas refaire les mêmes erreurs, ou pour permettre de profiter de mes découvertes</li>
+</ul>
+<p>Alors que je suis sur le point de commencer un <strong>stage de fin d’étude de six mois</strong> dans une startup parisienne qui réalise des <strong>applications mobiles en javascript</strong> (ionic et react native), j’ai pensé que c’était le <strong>bon momment</strong> pour commencer ce blog.</p>
+<p>Je <strong>compte présenter</strong> :</p>
+<ul>
+<li>mes <strong>projets open sources actuels</strong> comme :
+<ul>
+<li><strong>saroumane</strong>, un ensemble de <strong>scripts python</strong> pour <strong>gérer une infrastructure</strong> via des taches executées par des workers connectés sur des <strong>queues AMQP</strong></li>
+<li><strong>artemis-partage</strong>, une petite partie du projet artemis pour réaliser une <strong>interface d’administration</strong> des permissions de <strong>Google Drive</strong>, réalisée en javascript ES6 avec <strong>react, relay et graphql</strong></li>
+<li><strong>yamcha</strong>, une <strong>bibliothèque de composants react</strong>, basé sur le framework css <a href="http://bulma.io">http://bulma.io</a> qui utilise flexbox</li>
+<li><strong>pje-sph</strong>, un solveur de fluid, via les méthodes SPH, réalisé en C++14</li>
+</ul>
+</li>
+<li>les <strong>technologies que j’expérimente ou souhaite expérimenter</strong>
+<ul>
+<li><strong>rust</strong>, et go</li>
+<li><strong>haskell</strong> (déjà bien commencé) et ocaml</li>
+<li><strong>elm, et cycle.js</strong> (ainsi que me perfectionner en RxJS, une librairie asynchrone)</li>
+<li><strong>meteor</strong></li>
+<li><strong>django-channel</strong></li>
+<li><strong>scala</strong></li>
+</ul>
+</li>
+<li>des <strong>considérations non techniques</strong> sur l’agilté par exemple</li>
+<li>des <strong>bons plans de sortie à Paris</strong></li>
+</ul>
+<p>Pour ce faire, j’utilse <strong><a href="https://github.com/gatsbyjs/gatsby">GatsbyJs</a></strong> (qui utilise markdown, react et react router) avec le <strong>starter blog par défault</strong>. Je compte personifier ce blog bientôt.</p>
+<p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>
+<strong><em>Pull request welcome !</em></strong></p>
+]]></content>
+        <author>
+            <name>Tycho Tatitscheff</name>
+            <email>tycho.tatitscheff@gmail.com</email>
+            <uri>http://tychota.github.io</uri>
+        </author>
+    </entry>
+</feed>
