@@ -6,6 +6,7 @@ import { link } from 'gatsby-helpers'
 import ReadNext from '../components/ReadNext'
 import { rhythm } from '../utils/typography'
 import { config } from 'config'
+import DisqusThread from 'react-disqus-thread'
 
 import '../css/zenburn.css'
 
@@ -47,6 +48,11 @@ class MarkdownWrapper extends React.Component {
             Maintenu par <strong>{config.authorName}</strong> qui vit à Paris et code en JS/python.
             Publié sur github gràce à <a href="https://github.com/gatsbyjs/gatsby"> Gatsby</a>, qui utilise React et son écosystème.
           </p>
+          <DisqusThread
+            shortname="tychota"
+            title={post.title}
+            url={`http://tychota.github.io${route.path}`}
+          />
         </div>
       </DocumentTitle>
     )
