@@ -4,10 +4,33 @@
         <title>Idées random</title>
         <description>Le blog de Tycho Tatitscheff</description>
         <link>http://tychota.github.io</link>
-        <lastBuildDate>Thu, 25 Feb 2016 17:52:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Feb 2016 17:54:26 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <copyright>CC-BY</copyright>
         <generator>Feed for Node.js</generator>
+        <item>
+            <title><![CDATA[Ajout d'un flux RSS]]></title>
+            <link>http://tychota.github.io/2016-02-25---ajout-d-un-flux-rss/</link>
+            <guid>http://tychota.github.io/2016-02-25---ajout-d-un-flux-rss/</guid>
+            <pubDate>Thu, 25 Feb 2016 17:45:23 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Suite aux demandes de mes amis/collègues, j’ajoute un flux atom / rss2.
+Il est très fortement inspiré de [<a href="https://github.com/KyleAMathews/blog/blob/master/post-build.coffee">https://github.com/KyleAMathews/blog/blob/master/post-build.coffee</a>](celui de Kyle) et est basé sur le
+module NPM <code>feed</code>.</p>
+<p>Dans la todolist :</p>
+<ul>
+<li>les boutons sociaux</li>
+<li>un fil de commentaires discuss</li>
+<li>un revamp du CSS (<a href="http://bulma.io">bulma.io</a> &lt;3)</li>
+</ul>
+<p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>
+<strong><em>Pull request welcome !</em></strong></p>
+]]></content:encoded>
+            <author>
+                <name>Tycho Tatitscheff</name>
+                <email>tycho.tatitscheff@gmail.com</email>
+                <link>http://tychota.github.io</link>
+            </author>
+        </item>
         <item>
             <title><![CDATA[Je lance mon blog - les explications]]></title>
             <link>http://tychota.github.io/lancement-blog/</link>
