@@ -5,7 +5,7 @@ layout: post
 ---
 
 Suite aux demandes de mes amis/collègues, j'ajoute un flux atom / rss2.
-Il est très fortement inspiré de [https://github.com/KyleAMathews/blog/blob/master/post-build.coffee](celui de Kyle) et est basé sur le
+Il est très fortement inspiré de [celui de Kyle](https://github.com/KyleAMathews/blog/blob/master/post-build.coffee) et est basé sur le
 module NPM `feed`.
 
 Dans la todolist :
