@@ -8,7 +8,7 @@ import { rhythm } from '../utils/typography'
 import { config } from 'config'
 import DisqusThread from 'react-disqus-thread'
 
-import '../css/zenburn.css'
+import '../css/solarized.css'
 
 class MarkdownWrapper extends React.Component {
   render () {
