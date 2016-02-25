@@ -2,6 +2,7 @@
 title: "Ajout d'un flux RSS"
 date: '2016-02-25T17:45:23.015Z'
 layout: post
+path: "/ajout-atom-rss/"
 ---
 
 Suite aux demandes de mes amis/collègues, j'ajoute un flux atom / rss2.
