@@ -39,7 +39,11 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.1",
     "eslint-plugin-react": "^3.16.1",
+    "feed": "^0.2.6",
+    "front-matter": "^2.0.6",
     "gh-pages": "^0.10.0",
+    "lodash": "^4.5.1",
+    "markdown-it": "^6.0.0",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1"
