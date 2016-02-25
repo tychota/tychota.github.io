@@ -4,14 +4,40 @@
         <title>Idées random</title>
         <description>Le blog de Tycho Tatitscheff</description>
         <link>http://tychota.github.io</link>
-        <lastBuildDate>Thu, 25 Feb 2016 17:57:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Feb 2016 20:20:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <copyright>CC-BY</copyright>
         <generator>Feed for Node.js</generator>
         <item>
+            <title><![CDATA[Ajout disqus]]></title>
+            <link>http://tychota.github.io/ajout-disqus/</link>
+            <guid>http://tychota.github.io/ajout-disqus/</guid>
+            <pubDate>Thu, 25 Feb 2016 19:46:30 GMT</pubDate>
+            <content:encoded><![CDATA[<p>J’ajoute des commentaires disqus.
+Il est très fortement inspiré de <a href="https://github.com/KyleAMathews/blog">celui de Kyle</a> et est basé sur le
+module NPM <code>react-disqus-thread</code>.</p>
+<p>J’ai inséré le composant react suivant :</p>
+<pre><code>&lt;DisqusThread
+  shortname=&quot;tychota&quot;
+  title={post.title}
+  url={`http://tychota.github.io${route.path}`}
+/&gt;
+</code></pre>
+<p>et créé un compte Disqus.</p>
+<p>Bref, c’était fort simple d’intégrer Disqus.</p>
+<p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>
+<strong><em>Pull request welcome !</em></strong></p>
+]]></content:encoded>
+            <author>
+                <name>Tycho Tatitscheff</name>
+                <email>tycho.tatitscheff@gmail.com</email>
+                <link>http://tychota.github.io</link>
+            </author>
+        </item>
+        <item>
             <title><![CDATA[Ajout d'un flux RSS]]></title>
-            <link>http://tychota.github.io/ajout-atom-rss/</link>
-            <guid>http://tychota.github.io/ajout-atom-rss/</guid>
+            <link>http://tychota.github.io/ajout-flux-rss</link>
+            <guid>http://tychota.github.io/ajout-flux-rss</guid>
             <pubDate>Thu, 25 Feb 2016 17:45:23 GMT</pubDate>
             <content:encoded><![CDATA[<p>Suite aux demandes de mes amis/collègues, j’ajoute un flux atom / rss2.
 Il est très fortement inspiré de <a href="https://github.com/KyleAMathews/blog/blob/master/post-build.coffee">celui de Kyle</a> et est basé sur le
@@ -19,7 +45,7 @@ module NPM <code>feed</code>.</p>
 <p>Dans la todolist :</p>
 <ul>
 <li>les boutons sociaux</li>
-<li>un fil de commentaires discuss</li>
+<li><s>un fil de commentaires disqus</s></li>
 <li>un revamp du CSS (<a href="http://bulma.io">bulma.io</a> &lt;3)</li>
 </ul>
 <p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>

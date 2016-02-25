@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Idées random</title>
     <link>http://tychota.github.io</link>
-    <updated>2016-02-25T17:57:42Z</updated>
+    <updated>2016-02-25T20:20:21Z</updated>
     <author>
         <name>Tycho Tatitscheff</name>
         <email>tycho.tatitscheff@gmail.com</email>
@@ -17,9 +17,36 @@
         <email>tycho.tatitscheff</email>
     </contributor>
     <entry>
+        <title type="html"><![CDATA[Ajout disqus]]></title>
+        <id>http://tychota.github.io/ajout-disqus/</id>
+        <link href="http://tychota.github.io/ajout-disqus/">
+        </link>
+        <updated>2016-02-25T19:46:30Z</updated>
+        <content type="html"><![CDATA[<p>J’ajoute des commentaires disqus.
+Il est très fortement inspiré de <a href="https://github.com/KyleAMathews/blog">celui de Kyle</a> et est basé sur le
+module NPM <code>react-disqus-thread</code>.</p>
+<p>J’ai inséré le composant react suivant :</p>
+<pre><code>&lt;DisqusThread
+  shortname=&quot;tychota&quot;
+  title={post.title}
+  url={`http://tychota.github.io${route.path}`}
+/&gt;
+</code></pre>
+<p>et créé un compte Disqus.</p>
+<p>Bref, c’était fort simple d’intégrer Disqus.</p>
+<p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>
+<strong><em>Pull request welcome !</em></strong></p>
+]]></content>
+        <author>
+            <name>Tycho Tatitscheff</name>
+            <email>tycho.tatitscheff@gmail.com</email>
+            <uri>http://tychota.github.io</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ajout d'un flux RSS]]></title>
-        <id>http://tychota.github.io/ajout-atom-rss/</id>
-        <link href="http://tychota.github.io/ajout-atom-rss/">
+        <id>http://tychota.github.io/ajout-flux-rss</id>
+        <link href="http://tychota.github.io/ajout-flux-rss">
         </link>
         <updated>2016-02-25T17:45:23Z</updated>
         <content type="html"><![CDATA[<p>Suite aux demandes de mes amis/collègues, j’ajoute un flux atom / rss2.
@@ -28,7 +55,7 @@ module NPM <code>feed</code>.</p>
 <p>Dans la todolist :</p>
 <ul>
 <li>les boutons sociaux</li>
-<li>un fil de commentaires discuss</li>
+<li><s>un fil de commentaires disqus</s></li>
 <li>un revamp du CSS (<a href="http://bulma.io">bulma.io</a> &lt;3)</li>
 </ul>
 <p><strong><em>Cet article et ses fautes d’orthographe sont sous licence CC-BY :)</em></strong>
