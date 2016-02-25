@@ -4,14 +4,14 @@
         <title>Idées random</title>
         <description>Le blog de Tycho Tatitscheff</description>
         <link>http://tychota.github.io</link>
-        <lastBuildDate>Thu, 25 Feb 2016 17:55:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Feb 2016 17:57:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <copyright>CC-BY</copyright>
         <generator>Feed for Node.js</generator>
         <item>
             <title><![CDATA[Ajout d'un flux RSS]]></title>
-            <link>http://tychota.github.io/2016-02-25---ajout-d-un-flux-rss/</link>
-            <guid>http://tychota.github.io/2016-02-25---ajout-d-un-flux-rss/</guid>
+            <link>http://tychota.github.io/ajout-atom-rss/</link>
+            <guid>http://tychota.github.io/ajout-atom-rss/</guid>
             <pubDate>Thu, 25 Feb 2016 17:45:23 GMT</pubDate>
             <content:encoded><![CDATA[<p>Suite aux demandes de mes amis/collègues, j’ajoute un flux atom / rss2.
 Il est très fortement inspiré de <a href="https://github.com/KyleAMathews/blog/blob/master/post-build.coffee">celui de Kyle</a> et est basé sur le
