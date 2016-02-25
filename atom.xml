@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Idées random</title>
     <link>http://tychota.github.io</link>
-    <updated>2016-02-25T17:54:26Z</updated>
+    <updated>2016-02-25T17:55:56Z</updated>
     <author>
         <name>Tycho Tatitscheff</name>
         <email>tycho.tatitscheff@gmail.com</email>
@@ -23,7 +23,7 @@
         </link>
         <updated>2016-02-25T17:45:23Z</updated>
         <content type="html"><![CDATA[<p>Suite aux demandes de mes amis/collègues, j’ajoute un flux atom / rss2.
-Il est très fortement inspiré de [<a href="https://github.com/KyleAMathews/blog/blob/master/post-build.coffee">https://github.com/KyleAMathews/blog/blob/master/post-build.coffee</a>](celui de Kyle) et est basé sur le
+Il est très fortement inspiré de <a href="https://github.com/KyleAMathews/blog/blob/master/post-build.coffee">celui de Kyle</a> et est basé sur le
 module NPM <code>feed</code>.</p>
 <p>Dans la todolist :</p>
 <ul>
