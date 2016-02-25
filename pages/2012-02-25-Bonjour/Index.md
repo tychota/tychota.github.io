@@ -33,5 +33,6 @@ Je **compte présenter** :
 
 Pour ce faire, j'utilse **[GatsbyJs](https://github.com/gatsbyjs/gatsby)** (qui utilise markdown, react et react router) avec le **starter blog par défault**. Je compte personifier ce blog bientôt.
 
-**Cet article et ses fautes d'orthographe sont sous licence CC-BY :)
-Pull request welcome ! **
+***Cet article et ses fautes d'orthographe sont sous licence CC-BY :)***
+
+***Pull request welcome ! ***
