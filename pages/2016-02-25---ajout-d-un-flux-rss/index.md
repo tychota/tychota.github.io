@@ -1,5 +1,5 @@
 ---
-title: "Ajout d'un flux RSS"
+title: "Update de ce blog - Ajout d'un flux RSS"
 date: '2016-02-25T17:45:23.015Z'
 layout: post
 path: "/ajout-flux-rss"
@@ -11,8 +11,21 @@ module NPM `feed`.
 
 Dans la todolist :
 * les boutons sociaux
-* ~~un fil de commentaires disqus~~
+* ~~un fil de commentaires disqus~~ : cf article suivant
+* composant 404
 * un revamp du CSS (bulma.io <3)
+
+------------
+**EDIT**
+
+je n'avais pas ajouté le
+```
+<link rel="feed alternate" type="application/atom+xml" href="/feed.atom" title="Idées Random">
+```
+donc le feed n'était pas découvert.
+
+Je remplace le feed RSS par un feed atom.
+
 
 ***Cet article et ses fautes d'orthographe sont sous licence CC-BY :)***
 ***Pull request welcome !***

@@ -1,5 +1,5 @@
 ---
-title: Ajout disqus
+title: "Update de ce blog - Ajout disqus"
 date: '2016-02-25T19:46:30.783Z'
 layout: post
 path: "/ajout-disqus/"

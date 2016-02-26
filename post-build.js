@@ -60,6 +60,5 @@ const generateAtomFeed = function(pages) {
     email: 'tycho.tatitscheff',
     link: 'http://tychota.github.io'
   })
-  fs.writeFileSync(__dirname + "/public/atom.xml", feed.render('atom-1.0'))
-  fs.writeFileSync(__dirname + "/public/rss.xml", feed.render('rss-2.0'))
+  fs.writeFileSync(__dirname + "/public/feed.atom", feed.render('atom-1.0'))
 }

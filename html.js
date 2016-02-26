@@ -25,6 +25,7 @@ export default class Html extends React.Component {
             name="viewport"
             content="user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0"
           />
+          <link rel="feed alternate" type="application/atom+xml" href="/feed.atom" title="Idées Random" />
           <title>{this.props.title}</title>
           <link rel="shortcut icon" href={favicon} />
           <TypographyStyle/>
