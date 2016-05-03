@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router'
 import sortBy from 'lodash/sortBy'
 import DocumentTitle from 'react-document-title'
+import { prefixLink } from 'gatsby-helpers'
 import { link } from 'gatsby-helpers'
 import { rhythm } from 'utils/typography'
 import access from 'safe-access'
 import { config } from 'config'
+import include from 'underscore.string/include'
+import Bio from 'components/Bio'
 
 class BlogIndex extends React.Component {
   render () {
@@ -15,7 +18,7 @@ class BlogIndex extends React.Component {
       access(page, 'data.date')
     ).reverse()
     sortedPages.forEach((page) => {
-      if (access(page, 'file.ext') === 'md') {
+      if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path
         pageLinks.push(
           <li
@@ -24,7 +27,7 @@ class BlogIndex extends React.Component {
               marginBottom: rhythm(1/4),
             }}
           >
-            <Link to={link(page.path)}>{title}</Link>
+            <Link to={prefixLink(page.path)}>{title}</Link>
           </li>
         )
       }
@@ -32,23 +35,7 @@ class BlogIndex extends React.Component {
     return (
       <DocumentTitle title={config.blogTitle}>
         <div>
-          <p
-            style={{
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <img
-              src="./tychota.png"
-              style={{
-                float: 'left',
-                marginRight: rhythm(1/4),
-                marginBottom: 0,
-                width: rhythm(2),
-                height: rhythm(2),
-              }}/>
-            Maintenu par <strong>{config.authorName}</strong> qui vit à Paris et code en JS/python.
-            Publié sur github gràce à <a href="https://github.com/gatsbyjs/gatsby"> Gatsby</a>, qui utilise React et son écosystème.
-          </p>
+          <Bio />
           <ul>
             {pageLinks}
           </ul>
